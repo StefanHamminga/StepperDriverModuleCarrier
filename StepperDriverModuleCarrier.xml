@@ -1,0 +1,3500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/stefan/Projects/Current/StepperDriverModuleCarrier/StepperDriverModuleCarrier.kicad_sch</source>
+    <date>Mon Aug  9 09:43:30 2021</date>
+    <tool>Eeschema (5.99.0-11661-g1332208ab1)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>StepperDriverModuleCarrier.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30b6c20c-76ea-458c-acb7-7f4665b22351</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>27pF C0G 50V</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">C0G</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1557</field>
+        <field name="MPN">0402CG270J500NT</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="C0G"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="0402CG270J500NT"/>
+      <property name="JLCPCB Part" value="C1557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0cd137e-2894-4265-8001-c976fbd981ba</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>24adc972-c8e8-41ee-bb85-181021742bb2</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bd162999-2447-4966-b9e2-5c27b3d0b2bd</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>27pF C0G 50V</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">C0G</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1557</field>
+        <field name="MPN">0402CG270J500NT</field>
+        <field name="Package">1005</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1005"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="C0G"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="0402CG270J500NT"/>
+      <property name="JLCPCB Part" value="C1557"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df36ec19-9662-4984-9310-e5eb38f18938</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62af7b86-9dd4-482c-b13e-b6dc100bb59e</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>47uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C357615</field>
+        <field name="MPN">RG035M470LO5*11TA-1A1E</field>
+        <field name="MPN_ALT1">C357615</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="RG035M470LO5*11TA-1A1E"/>
+      <property name="MPN_ALT1" value="C357615"/>
+      <property name="JLCPCB Part" value="C357615"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>524c6985-e192-4c9c-9370-af85844a6f46</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>77bc6bd4-1bc8-4d35-88b9-8757a7b9f5a0</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>89a89a0c-f8f9-4ee1-9970-fbb838500fa5</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00ab8550-337a-4720-9b52-4e36501f27b2</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0b29f4c-023e-43d0-afd5-1a8914a5ada4</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f1ed96e6-7674-45f2-8d6a-1bd8575d03aa</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C357615</field>
+        <field name="MPN">RG035M470LO5*11TA-1A1E</field>
+        <field name="MPN_ALT1">C357615</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="RG035M470LO5*11TA-1A1E"/>
+      <property name="MPN_ALT1" value="C357615"/>
+      <property name="JLCPCB Part" value="C357615"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3243b5f7-c7f2-4823-bcc4-78ecac0141fd</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff3cd1e7-cf42-42ef-a2eb-b32fb40cc27e</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>47uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C357615</field>
+        <field name="MPN">RG035M470LO5*11TA-1A1E</field>
+        <field name="MPN_ALT1">C357615</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="RG035M470LO5*11TA-1A1E"/>
+      <property name="MPN_ALT1" value="C357615"/>
+      <property name="JLCPCB Part" value="C357615"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07cc3fdd-649e-49d1-960a-433f8979cfd9</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1511b06d-9251-4804-853b-4857c7bb450d</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>47uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C357615</field>
+        <field name="MPN">RG035M470LO5*11TA-1A1E</field>
+        <field name="MPN_ALT1">C357615</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="RG035M470LO5*11TA-1A1E"/>
+      <property name="MPN_ALT1" value="C357615"/>
+      <property name="JLCPCB Part" value="C357615"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>07e9180c-2f0e-4e79-b412-429d2df0abc7</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>920e29af-0e69-4b90-9e86-ba5aa56e8714</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c3e0e542-fd35-474d-8c1f-f5131db44348</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8408eec0-69b9-492c-a265-0ff631ebb1cd</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a7b2c09c-538f-4d3c-8ee9-98ad0ae39cb6</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae776934-af17-4711-9f05-24f452a038b9</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bac6a747-ef2d-4a7e-bf1d-9a53ab520af1</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>267dbcaa-4c5f-4de9-a8d4-cb3d65470fcc</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c3b0b72-5ce4-45ab-b2d3-20e2775580d4</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2dca019-90e9-4dd0-baf9-b6db8f2019b0</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8d357c5a-78e9-4a5f-8b7b-8f4335c2e630</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:2012_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C28323</field>
+        <field name="MPN">CL21B105KBFNNNE</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL21B105KBFNNNE"/>
+      <property name="MPN_ALT1" value=""/>
+      <property name="JLCPCB Part" value="C28323"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b9cb995-3921-44d6-a4f5-cb7bb486e66d</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>67b66ad4-0311-4204-9bac-1071a32d9086</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4ddccc8-5f59-4537-a892-f1ddbd131ebc</tstamps>
+    </comp>
+    <comp ref="C31">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e36690ff-0419-44b2-b984-0176423ce12b</tstamps>
+    </comp>
+    <comp ref="C32">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2556dad5-5d35-4142-af55-8d7d4b2117e8</tstamps>
+    </comp>
+    <comp ref="C33">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c63584e-01b5-4f69-bf90-718f3584812a</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>15b0f7f3-ee90-4ea0-afdc-7ffac1ef6210</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f0c1d9af-c7a8-45b2-9716-afd2e26ddae6</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>48dad6c5-608c-489d-bc85-a4469af0d741</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>45f6be52-430f-4c82-98bc-dd1fe0879d7b</tstamps>
+    </comp>
+    <comp ref="C38">
+      <value>0.1uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C1525</field>
+        <field name="MPN">CL05B104KO5NNNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05B104KO5NNNC"/>
+      <property name="JLCPCB Part" value="C1525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>59ff17ea-0a6f-458b-a45b-d0e900f08402</tstamps>
+    </comp>
+    <comp ref="C39">
+      <value>100uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C269987</field>
+        <field name="MPN">NPHDD1H101MF</field>
+        <field name="MPN_ALT1">ERJ1VM221F09OT</field>
+        <field name="Package">CP D8 x L8</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="NPHDD1H101MF"/>
+      <property name="Package" value="CP D8 x L8"/>
+      <property name="MPN_ALT1" value="ERJ1VM221F09OT"/>
+      <property name="JLCPCB Part" value="C269987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>53e93527-e7da-4370-80a1-c018ce76eba9</tstamps>
+    </comp>
+    <comp ref="C40">
+      <value>10uF</value>
+      <footprint>Capacitor_SMD:1005_C</footprint>
+      <fields>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="JLCPCB Part">C15525</field>
+        <field name="MPN">CL05A106MQ5NUNC</field>
+        <field name="Package">1608</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Tolerance">10%</field>
+        <field name="Voltage">16V</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Csmall" description=""/>
+      <property name="Voltage" value="16V"/>
+      <property name="Tolerance" value="10%"/>
+      <property name="Package" value="1608"/>
+      <property name="Footprint_Density" value="C"/>
+      <property name="Dielectric" value="X7R"/>
+      <property name="Footprint_Library" value="Capacitor_SMD"/>
+      <property name="Spice_Primitive" value="C"/>
+      <property name="Spice_Model" value="100n"/>
+      <property name="Spice_Netlist_Enabled" value="Y"/>
+      <property name="MPN" value="CL05A106MQ5NUNC"/>
+      <property name="JLCPCB Part" value="C15525"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ce5579d1-fecb-4b4f-b715-5a0f2e4b4179</tstamps>
+    </comp>
+    <comp ref="C41">
+      <value>100uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C269987</field>
+        <field name="MPN">NPHDD1H101MF</field>
+        <field name="MPN_ALT1">ERJ1VM221F09OT</field>
+        <field name="Package">CP D8 x L8</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="NPHDD1H101MF"/>
+      <property name="Package" value="CP D8 x L8"/>
+      <property name="MPN_ALT1" value="ERJ1VM221F09OT"/>
+      <property name="JLCPCB Part" value="C269987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2bc9d4d5-e893-42c4-a693-f2975e7afb12</tstamps>
+    </comp>
+    <comp ref="C42">
+      <value>100uF 35V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C269987</field>
+        <field name="MPN">NPHDD1H101MF</field>
+        <field name="MPN_ALT1">ERJ1VM221F09OT</field>
+        <field name="Package">CP D8 x L8</field>
+      </fields>
+      <libsource lib="RobotProtos" part="CPsmall" description=""/>
+      <property name="MPN" value="NPHDD1H101MF"/>
+      <property name="Package" value="CP D8 x L8"/>
+      <property name="MPN_ALT1" value="ERJ1VM221F09OT"/>
+      <property name="JLCPCB Part" value="C269987"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0865fcd7-8c7e-447b-888a-6a631fe19c5a</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>40V 5A 550mV</value>
+      <footprint>Diode_SMD:DO-214AC_KA</footprint>
+      <fields>
+        <field name="JLCPCB Part">C22452</field>
+        <field name="MPN">SS54</field>
+        <field name="MPN_ALT1">C22452</field>
+      </fields>
+      <libsource lib="RobotProtos" part="DSMALL" description=""/>
+      <property name="MPN" value="SS54"/>
+      <property name="MPN_ALT1" value="C22452"/>
+      <property name="JLCPCB Part" value="C22452"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a0f6ea19-ed62-4f02-8249-40fbe8a4be7e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>PWR</value>
+      <footprint>LED_SMD:1608_C_KA</footprint>
+      <fields>
+        <field name="JLCPCB Part">C72043</field>
+        <field name="MPN"> 19-217/GHC-YR1S2/3T</field>
+        <field name="USD_per_1">0,17</field>
+        <field name="USD_per_1000">0,07875</field>
+      </fields>
+      <libsource lib="RobotProtos" part="LED_SMALL" description=""/>
+      <property name="USD_per_1000" value="0,07875"/>
+      <property name="USD_per_1" value="0,17"/>
+      <property name="JLCPCB Part" value="C72043"/>
+      <property name="MPN" value=" 19-217/GHC-YR1S2/3T"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aec46678-78c8-4ab7-a8cd-7c0388de5093</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>GPIO</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x12_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB Part">C492429</field>
+        <field name="MPN">PZ254V-12-24P</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_02x12_Odd_Even" description="Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="PZ254V-12-24P"/>
+      <property name="JLCPCB Part" value="C492429"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>84fe1238-9f02-42fa-abb7-7081dd61d26c</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>Vin</value>
+      <footprint>TerminalBlock:Ningbo_Kangnex_Electric_WJ126V-5.0-2P</footprint>
+      <fields>
+        <field name="JLCPCB Part">C8404</field>
+        <field name="MPN">WJ126V-5.0-2P</field>
+      </fields>
+      <libsource lib="Connector_Generic" part="Conn_01x02" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="WJ126V-5.0-2P"/>
+      <property name="JLCPCB Part" value="C8404"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>46349407-506a-4f39-9fdd-a474a4565ac7</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76ac725d-b374-4783-84f5-ddec2c7b65a8</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b90a8fa6-cdf2-443a-b240-1c51b4324fe8</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>11db2742-d24c-452d-bf68-669b17483810</tstamps>
+    </comp>
+    <comp ref="J6">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1f4fd83b-a967-469e-b771-c681018fb725</tstamps>
+    </comp>
+    <comp ref="J7">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2d7e0e6-c6c6-4093-ad9d-5ce4adbebe58</tstamps>
+    </comp>
+    <comp ref="J8">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>088856a3-d70c-474a-953b-2c3fae904f85</tstamps>
+    </comp>
+    <comp ref="J9">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2fe3bc8f-5e91-40e5-adce-f9a55cef542c</tstamps>
+    </comp>
+    <comp ref="J10">
+      <value>MODHEADER</value>
+      <footprint>Symbol:Dummy_01x08_2.54mm_header</footprint>
+      <fields>
+        <field name="JLCPCB Part">C27438</field>
+        <field name="MPN">C27438</field>
+      </fields>
+      <libsource lib="Connector" part="Conn_01x08_Female" description="Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MPN" value="C27438"/>
+      <property name="JLCPCB Part" value="C27438"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>12cc0044-1e6e-4ca8-96f3-8ebb65d3aa5e</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>CLKSYNC</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>821ecf64-4991-441c-9fbd-ef92638e5861</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>MS1</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c38f272f-835a-4794-a215-384c496c7e33</tstamps>
+    </comp>
+    <comp ref="JP3">
+      <value>MS2</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5703ee2b-190a-480f-acca-40dbbb9f54c5</tstamps>
+    </comp>
+    <comp ref="JP4">
+      <value>MS1</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>cbc19b64-85c4-4c46-b57c-d5bbe8151985</tstamps>
+    </comp>
+    <comp ref="JP5">
+      <value>MS2</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9163fcc4-46ed-4125-95a5-35dcc770580e</tstamps>
+    </comp>
+    <comp ref="JP6">
+      <value>MS1</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>337b98cd-93e0-45e4-be7a-43010a0cefe4</tstamps>
+    </comp>
+    <comp ref="JP7">
+      <value>MS2</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d5bac67-f55d-458d-b83c-a8f1815819e4</tstamps>
+    </comp>
+    <comp ref="JP8">
+      <value>MS1</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c78fb9a-1525-484f-8071-b40e12de1175</tstamps>
+    </comp>
+    <comp ref="JP9">
+      <value>MS2</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>587c7605-e4c7-42a7-88b2-70d85f854d17</tstamps>
+    </comp>
+    <comp ref="JP10">
+      <value>SER</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>66ab3967-a584-45e9-9284-2d286b327b6c</tstamps>
+    </comp>
+    <comp ref="JP11">
+      <value>SER</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb6822e8-9beb-488e-bfe7-014965582ad0</tstamps>
+    </comp>
+    <comp ref="JP12">
+      <value>SER</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9a9e3753-3164-44c2-a168-1d1eeadc355e</tstamps>
+    </comp>
+    <comp ref="JP13">
+      <value>SER</value>
+      <footprint>Jumper:SolderJumper-3_P1.3mm_Bridged12_RoundedPad1.0x1.5mm_NumberLabels</footprint>
+      <fields>
+        <field name="MPN">DNP</field>
+        <field name="USD_per_1">0,25</field>
+        <field name="USD_per_1000">0,085</field>
+      </fields>
+      <libsource lib="RobotProtos" part="JUMPER_3" description=""/>
+      <property name="USD_per_1000" value="0,085"/>
+      <property name="USD_per_1" value="0,25"/>
+      <property name="MPN" value="DNP"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fd712c44-dfcd-4d4b-a05d-93a4525ae5dc</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>Bipolar_Stepper_Motor_A1A2B2B1</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB Part">C57846</field>
+        <field name="MPN">XH-4A</field>
+        <field name="Package">CONN-TH_4P-P2.50_XH-4A</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Bipolar_Stepper_Motor_A1A2B2B1" description=""/>
+      <property name="MPN" value="XH-4A"/>
+      <property name="Package" value="CONN-TH_4P-P2.50_XH-4A"/>
+      <property name="JLCPCB Part" value="C57846"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>872da6bc-7287-407c-8854-6ecfa3a982f1</tstamps>
+    </comp>
+    <comp ref="M2">
+      <value>Bipolar_Stepper_Motor_A1A2B2B1</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB Part">C57846</field>
+        <field name="MPN">XH-4A</field>
+        <field name="Package">CONN-TH_4P-P2.50_XH-4A</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Bipolar_Stepper_Motor_A1A2B2B1" description=""/>
+      <property name="MPN" value="XH-4A"/>
+      <property name="Package" value="CONN-TH_4P-P2.50_XH-4A"/>
+      <property name="JLCPCB Part" value="C57846"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6bdf0e81-fd1f-4d5a-aefd-2b0bb58374b1</tstamps>
+    </comp>
+    <comp ref="M3">
+      <value>Bipolar_Stepper_Motor_A1A2B2B1</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB Part">C57846</field>
+        <field name="MPN">XH-4A</field>
+        <field name="Package">CONN-TH_4P-P2.50_XH-4A</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Bipolar_Stepper_Motor_A1A2B2B1" description=""/>
+      <property name="MPN" value="XH-4A"/>
+      <property name="Package" value="CONN-TH_4P-P2.50_XH-4A"/>
+      <property name="JLCPCB Part" value="C57846"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdfb3ca5-2b2c-4a67-bd0c-2f25609a4c1a</tstamps>
+    </comp>
+    <comp ref="M4">
+      <value>Bipolar_Stepper_Motor_A1A2B2B1</value>
+      <footprint>Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical</footprint>
+      <fields>
+        <field name="JLCPCB Part">C57846</field>
+        <field name="MPN">XH-4A</field>
+        <field name="Package">CONN-TH_4P-P2.50_XH-4A</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Bipolar_Stepper_Motor_A1A2B2B1" description=""/>
+      <property name="MPN" value="XH-4A"/>
+      <property name="Package" value="CONN-TH_4P-P2.50_XH-4A"/>
+      <property name="JLCPCB Part" value="C57846"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8db0964f-2474-4730-8485-3d63f7bc3fa3</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d3b5f4d9-bf5a-4b91-b62a-b02e24928e99</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>22</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25092</field>
+        <field name="MPN">0402WGF220JTCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF220JTCE"/>
+      <property name="JLCPCB Part" value="C25092"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3135b3e2-af5a-40fa-b3a8-fd6b7fd194aa</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>22</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25092</field>
+        <field name="MPN">0402WGF220JTCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF220JTCE"/>
+      <property name="JLCPCB Part" value="C25092"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82825094-afef-445d-ba1a-7c9eb8da1f93</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6781ace0-dae9-455d-aad9-0f3870e8b608</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25741</field>
+        <field name="MPN">0402WGF1003TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1003TCE"/>
+      <property name="JLCPCB Part" value="C25741"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>526eb968-1967-4b8a-962f-a3ea56c412f7</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a5def4b3-6b6d-4dab-ad08-24ed9ce759c1</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b09f11e4-bf9e-4776-ab83-5e5bad627201</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2672180f-fc8d-4127-bc91-45d778ce1451</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae34ec89-1e76-4c0f-9c42-cf98e3fea934</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59bf7fe-2f9c-4688-b537-b00ce20d0f80</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27121d36-a399-45ac-b2c7-d25b331a81e0</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0a8b28a-4ebf-4325-b34c-a0dadc820371</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4789e8da-2462-46c6-a48e-a0639da0ed36</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e42c7c2-e958-4768-af79-6506006b55d0</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e94b586b-09a1-4f08-a700-84facfcfb11f</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b276eb11-595e-4218-982d-dd29e70c3eca</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9e3890d9-d162-4eee-beb6-e2f3a5bb8282</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>10k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C25744</field>
+        <field name="MPN">0402WGF1002TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1002TCE"/>
+      <property name="JLCPCB Part" value="C25744"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>212e4dd9-261f-42e1-8963-c68745f89636</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bac8f46e-a607-4e60-a53a-c4f93cef578b</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41740b2b-53db-475d-a15b-2c05471510f1</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ff245269-32d1-4c48-8476-ff88bbf5d79d</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>1k</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C11702</field>
+        <field name="MPN">0402WGF1001TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF1001TCE"/>
+      <property name="JLCPCB Part" value="C11702"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1920c2b7-94bd-4cdb-b00e-92986a30f71d</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>0</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part" value="C17168"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d245f0b3-50b9-4af7-8900-8c4c2f77a34f</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>0</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part" value="C17168"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>913836a1-9e07-4764-ab75-64c9fd857071</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>0</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part" value="C17168"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0be7a2a2-7868-473b-ae05-78e48c60d413</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>0</value>
+      <footprint>Resistor_SMD:1005_C</footprint>
+      <fields>
+        <field name="JLCPCB Part">C17168</field>
+        <field name="MPN">0402WGF0000TCE</field>
+        <field name="USD_per_1">0,08</field>
+        <field name="USD_per_1000">0,024</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RSMALL" description=""/>
+      <property name="USD_per_1000" value="0,024"/>
+      <property name="USD_per_1" value="0,08"/>
+      <property name="MPN" value="0402WGF0000TCE"/>
+      <property name="JLCPCB Part" value="C17168"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7d052552-7344-43fd-ad57-87355aba771d</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>RP2040</value>
+      <footprint>Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm</footprint>
+      <datasheet>https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part">C2040</field>
+        <field name="MPN">RP2040</field>
+      </fields>
+      <libsource lib="RobotProtos" part="RP2040" description=""/>
+      <property name="MPN" value="RP2040"/>
+      <property name="JLCPCB Part" value="C2040"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>30ca1394-6318-4f4c-9f84-2b408cd99dfc</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>W25Q128JVS</value>
+      <footprint>Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</footprint>
+      <datasheet>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part">C97521</field>
+        <field name="MPN">W25Q128JVSIQ</field>
+      </fields>
+      <libsource lib="Memory_Flash" part="W25Q128JVS" description="128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8"/>
+      <property name="MPN" value="W25Q128JVSIQ"/>
+      <property name="JLCPCB Part" value="C97521"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41681d47-414f-40c8-b55f-84e5f7c3f751</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>XC6206P332MR</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.torexsemi.com/file/xc6206/XC6206.pdf</datasheet>
+      <fields>
+        <field name="JLCPCB Part">C5446</field>
+        <field name="MPN">XC6206P332MR</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="XC6206PxxxMR" description="Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23"/>
+      <property name="MPN" value="XC6206P332MR"/>
+      <property name="JLCPCB Part" value="C5446"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6c324ffa-3c24-44b8-909a-fac5f8f4978e</tstamps>
+    </comp>
+    <comp ref="Y1">
+      <value>12MHz</value>
+      <footprint>Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm</footprint>
+      <fields>
+        <field name="JLCPCB Part">C9002</field>
+        <field name="MPN">X322512MSB4SI</field>
+      </fields>
+      <libsource lib="RobotProtos" part="Crystal_small_4P" description=""/>
+      <property name="MPN" value="X322512MSB4SI"/>
+      <property name="JLCPCB Part" value="C9002"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="StepperDriverModuleCarrier.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b3c9439-4622-4a3c-9ae7-cfbb57a1d7bb</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="Makerbase MKS TMC2209 v2.0_1">
+      <fields>
+        <field name="Reference">A1</field>
+        <field name="Value">Makerbase MKS TMC2209 v2.0_1</field>
+        <field name="Footprint">Module:BigTreeTech_TMC2209_v1.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="MS1" type="input"/>
+        <pin num="3" name="MS2" type="input"/>
+        <pin num="4" name="PDN/UART" type="bidirectional"/>
+        <pin num="5" name="UART" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VIO" type="power_in"/>
+        <pin num="11" name="OB2" type="output"/>
+        <pin num="12" name="OB1" type="output"/>
+        <pin num="13" name="OA1" type="output"/>
+        <pin num="14" name="OA2" type="output"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="VM" type="output"/>
+        <pin num="17" name="DIAG" type="output"/>
+        <pin num="18" name="VREF" type="passive"/>
+        <pin num="19" name="INDEX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Makerbase MKS TMC2209 v2.0_2">
+      <fields>
+        <field name="Reference">A1</field>
+        <field name="Value">Makerbase MKS TMC2209 v2.0_2</field>
+        <field name="Footprint">Module:BigTreeTech_TMC2209_v1.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="MS1" type="input"/>
+        <pin num="3" name="MS2" type="input"/>
+        <pin num="4" name="PDN/UART" type="bidirectional"/>
+        <pin num="5" name="UART" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VIO" type="power_in"/>
+        <pin num="11" name="OB2" type="output"/>
+        <pin num="12" name="OB1" type="output"/>
+        <pin num="13" name="OA1" type="output"/>
+        <pin num="14" name="OA2" type="output"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="VM" type="output"/>
+        <pin num="17" name="DIAG" type="output"/>
+        <pin num="18" name="VREF" type="passive"/>
+        <pin num="19" name="INDEX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="Makerbase MKS TMC2209 v2.0_3">
+      <fields>
+        <field name="Reference">A1</field>
+        <field name="Value">Makerbase MKS TMC2209 v2.0_3</field>
+        <field name="Footprint">Module:BigTreeTech_TMC2209_v1.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="MS1" type="input"/>
+        <pin num="3" name="MS2" type="input"/>
+        <pin num="4" name="PDN/UART" type="bidirectional"/>
+        <pin num="5" name="UART" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VIO" type="power_in"/>
+        <pin num="11" name="OB2" type="output"/>
+        <pin num="12" name="OB1" type="output"/>
+        <pin num="13" name="OA1" type="output"/>
+        <pin num="14" name="OA2" type="output"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="VM" type="output"/>
+        <pin num="17" name="DIAG" type="output"/>
+        <pin num="18" name="VREF" type="passive"/>
+        <pin num="19" name="INDEX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x08_Female">
+      <description>Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x08_Female</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_01x02">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector_Generic" part="Conn_02x12_Odd_Even">
+      <description>Generic connector, double row, 02x12, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x12_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+        <pin num="17" name="Pin_17" type="passive"/>
+        <pin num="18" name="Pin_18" type="passive"/>
+        <pin num="19" name="Pin_19" type="passive"/>
+        <pin num="20" name="Pin_20" type="passive"/>
+        <pin num="21" name="Pin_21" type="passive"/>
+        <pin num="22" name="Pin_22" type="passive"/>
+        <pin num="23" name="Pin_23" type="passive"/>
+        <pin num="24" name="Pin_24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Memory_Flash" part="W25Q128JVS">
+      <description>128Mb Serial Flash Memory, Standard/Dual/Quad SPI, SOIC-8</description>
+      <docs>http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</docs>
+      <footprints>
+        <fp>SOIC*5.23x5.23mm*P1.27mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">W25Q128JVS</field>
+        <field name="Footprint">Package_SO:SOIC-8_5.23x5.23mm_P1.27mm</field>
+        <field name="Datasheet">http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~{CS}" type="input"/>
+        <pin num="2" name="DO(IO1)" type="bidirectional"/>
+        <pin num="3" name="IO2" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="DI(IO0)" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="IO3" type="bidirectional"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="XC6206PxxxMR">
+      <description>Positive 60-250mA Low Dropout Regulator, Fixed Output, SOT-23</description>
+      <docs>https://www.torexsemi.com/file/xc6206/XC6206.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">XC6206PxxxMR</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">https://www.torexsemi.com/file/xc6206/XC6206.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="Bipolar_Stepper_Motor_A1A2B2B1">
+      <fields>
+        <field name="Reference">M?</field>
+        <field name="Value">Bipolar_Stepper_Motor_A1A2B2B1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="power_in"/>
+        <pin num="2" name="A2" type="power_in"/>
+        <pin num="3" name="B2" type="power_in"/>
+        <pin num="4" name="B1" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="CPsmall">
+      <footprints>
+        <fp>CP*</fp>
+        <fp>SM*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CPsmall</field>
+        <field name="Footprint">Capacitor_THT:CP_Radial_D12.5mm_P5.00mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="Crystal_small_4P">
+      <fields>
+        <field name="Reference">Y</field>
+        <field name="Value">Crystal_small_4P</field>
+        <field name="Footprint">Crystal:Crystal_4-SMD_2.5x2mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="Csmall">
+      <footprints>
+        <fp>SM*</fp>
+        <fp>C?</fp>
+        <fp>C1-1</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">Csmall</field>
+        <field name="Footprint">Capacitor_SMD:1608_C</field>
+        <field name="Voltage">16V</field>
+        <field name="Tolerance">10%</field>
+        <field name="Package">1608</field>
+        <field name="Footprint_Density">C</field>
+        <field name="Dielectric">X7R</field>
+        <field name="Footprint_Library">Capacitor_SMD</field>
+        <field name="Spice_Primitive">C</field>
+        <field name="Spice_Model">100n</field>
+        <field name="Spice_Netlist_Enabled">Y</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="DSMALL">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DSMALL</field>
+      </fields>
+      <pins>
+        <pin num="A" name="2" type="passive"/>
+        <pin num="K" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="FIDUCIAL_MARKER">
+      <fields>
+        <field name="Reference">FD</field>
+        <field name="Value">FIDUCIAL_MARKER</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="JUMPER_3">
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">JUMPER_3</field>
+        <field name="Footprint">SH_Solder_Pads:JP-3</field>
+        <field name="USD_per_1000">0,085</field>
+        <field name="USD_per_1">0,25</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="LED_SMALL">
+      <footprints>
+        <fp>D?</fp>
+        <fp>S*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_SMALL</field>
+        <field name="USD_per_1000">0,07875</field>
+        <field name="USD_per_1">0,17</field>
+      </fields>
+      <pins>
+        <pin num="A" name="2" type="passive"/>
+        <pin num="K" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="MOUNT_HOLE">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MOUNT_HOLE</field>
+        <field name="Footprint">MountingHole:MountingHole_3.2mm_M3_ISO7380_Pad_TopOnly</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="Makerbase MKS TMC2209 v2.0">
+      <fields>
+        <field name="Reference">A1</field>
+        <field name="Value">Makerbase MKS TMC2209 v2.0</field>
+        <field name="Footprint">Module:BigTreeTech_TMC2209_v1.2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN" type="input"/>
+        <pin num="2" name="MS1" type="input"/>
+        <pin num="3" name="MS2" type="input"/>
+        <pin num="4" name="PDN/UART" type="bidirectional"/>
+        <pin num="5" name="UART" type="bidirectional"/>
+        <pin num="6" name="CLK" type="input"/>
+        <pin num="7" name="STEP" type="input"/>
+        <pin num="8" name="DIR" type="input"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VIO" type="power_in"/>
+        <pin num="11" name="OB2" type="output"/>
+        <pin num="12" name="OB1" type="output"/>
+        <pin num="13" name="OA1" type="output"/>
+        <pin num="14" name="OA2" type="output"/>
+        <pin num="15" name="GND" type="passive"/>
+        <pin num="16" name="VM" type="output"/>
+        <pin num="17" name="DIAG" type="output"/>
+        <pin num="18" name="VREF" type="passive"/>
+        <pin num="19" name="INDEX" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="RP2040">
+      <docs>https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf</docs>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">RP2040</field>
+        <field name="Footprint">Package_DFN_QFN:QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm</field>
+        <field name="Datasheet">https://datasheets.raspberrypi.org/rp2040/rp2040-datasheet.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IOVDD" type="power_in"/>
+        <pin num="2" name="GPIO0" type="bidirectional"/>
+        <pin num="3" name="GPIO1" type="bidirectional"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GPIO6" type="bidirectional"/>
+        <pin num="9" name="GPIO7" type="bidirectional"/>
+        <pin num="10" name="IOVDD" type="power_in"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GPIO10" type="bidirectional"/>
+        <pin num="14" name="GPIO11" type="bidirectional"/>
+        <pin num="15" name="GPIO12" type="bidirectional"/>
+        <pin num="16" name="GPIO13" type="bidirectional"/>
+        <pin num="17" name="GPIO14" type="bidirectional"/>
+        <pin num="18" name="GPIO15" type="bidirectional"/>
+        <pin num="19" name="TESTEN" type="input"/>
+        <pin num="20" name="XIN" type="input"/>
+        <pin num="21" name="XOUT" type="output"/>
+        <pin num="22" name="IOVDD" type="power_in"/>
+        <pin num="23" name="DVDD" type="power_in"/>
+        <pin num="24" name="SWDCLK" type="input"/>
+        <pin num="25" name="SWDIO" type="bidirectional"/>
+        <pin num="26" name="RUN" type="input"/>
+        <pin num="27" name="GPIO16" type="bidirectional"/>
+        <pin num="28" name="GPIO17" type="bidirectional"/>
+        <pin num="29" name="GPIO18" type="bidirectional"/>
+        <pin num="30" name="GPIO19" type="bidirectional"/>
+        <pin num="31" name="GPIO20" type="bidirectional"/>
+        <pin num="32" name="GPIO21" type="bidirectional"/>
+        <pin num="33" name="IOVDD" type="power_in"/>
+        <pin num="34" name="GPIO22" type="bidirectional"/>
+        <pin num="35" name="GPIO23" type="bidirectional"/>
+        <pin num="36" name="GPIO24" type="bidirectional"/>
+        <pin num="37" name="GPIO25" type="bidirectional"/>
+        <pin num="38" name="GPIO26/ADC0" type="bidirectional"/>
+        <pin num="39" name="GPIO27/ADC1" type="bidirectional"/>
+        <pin num="40" name="GPIO28/ADC2" type="bidirectional"/>
+        <pin num="41" name="GPIO29/ADC3" type="bidirectional"/>
+        <pin num="42" name="IOVDD" type="power_in"/>
+        <pin num="43" name="ADC_AVDD" type="power_in"/>
+        <pin num="44" name="VREG_VIN" type="power_in"/>
+        <pin num="45" name="VREG_VOUT" type="power_out"/>
+        <pin num="46" name="USB_DM" type="bidirectional"/>
+        <pin num="47" name="USB_DP" type="bidirectional"/>
+        <pin num="48" name="USB_VDD" type="power_in"/>
+        <pin num="49" name="IOVDD" type="power_in"/>
+        <pin num="50" name="DVDD" type="power_in"/>
+        <pin num="51" name="QSPI_SD3" type="bidirectional"/>
+        <pin num="52" name="QSPI_SCLK" type="output"/>
+        <pin num="53" name="QSPI_SD0" type="bidirectional"/>
+        <pin num="54" name="QSPI_SD2" type="bidirectional"/>
+        <pin num="55" name="QSPI_SD1" type="bidirectional"/>
+        <pin num="56" name="QSPI_SS_N" type="output"/>
+        <pin num="57" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="RobotProtos" part="RSMALL">
+      <footprints>
+        <fp>R?</fp>
+        <fp>SM0603</fp>
+        <fp>SM0805</fp>
+        <fp>R?-*</fp>
+        <fp>SM1206</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">RSMALL</field>
+        <field name="Footprint">Resistor_SMD:1608_C</field>
+        <field name="USD_per_1000">0,024</field>
+        <field name="USD_per_1">0,08</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Connector_Generic">
+      <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Memory_Flash">
+      <uri>/usr/share/kicad/symbols//Memory_Flash.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>/usr/share/kicad/symbols//Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="RobotProtos">
+      <uri>/usr/share/kicad/symbols//RobotProtos.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+1V1">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="DVDD" pintype="power_in"/>
+      <node ref="U1" pin="45" pinfunction="VREG_VOUT" pintype="power_out"/>
+      <node ref="U1" pin="50" pinfunction="DVDD" pintype="power_in"/>
+    </net>
+    <net code="2" name="+3V3">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="C31" pin="1" pintype="passive"/>
+      <node ref="C32" pin="1" pintype="passive"/>
+      <node ref="C33" pin="1" pintype="passive"/>
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="C38" pin="1" pintype="passive"/>
+      <node ref="C40" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="JP2" pin="3" pintype="passive"/>
+      <node ref="JP3" pin="3" pintype="passive"/>
+      <node ref="JP4" pin="3" pintype="passive"/>
+      <node ref="JP5" pin="3" pintype="passive"/>
+      <node ref="JP6" pin="3" pintype="passive"/>
+      <node ref="JP7" pin="3" pintype="passive"/>
+      <node ref="JP8" pin="3" pintype="passive"/>
+      <node ref="JP9" pin="3" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="22" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="33" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="42" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U1" pin="43" pinfunction="ADC_AVDD" pintype="power_in"/>
+      <node ref="U1" pin="44" pinfunction="VREG_VIN" pintype="power_in"/>
+      <node ref="U1" pin="48" pinfunction="USB_VDD" pintype="power_in"/>
+      <node ref="U1" pin="49" pinfunction="IOVDD" pintype="power_in"/>
+      <node ref="U2" pin="8" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U3" pin="2" pinfunction="VO" pintype="power_out"/>
+    </net>
+    <net code="3" name="+5V">
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="D1" pin="A" pinfunction="2" pintype="passive"/>
+      <node ref="J1" pin="24" pinfunction="Pin_24" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="VI" pintype="power_in"/>
+    </net>
+    <net code="4" name="/stepper_clk">
+      <node ref="JP1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="36" pinfunction="GPIO24" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="DIAG1">
+      <node ref="U1" pin="30" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="DIAG2">
+      <node ref="U1" pin="15" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="DIAG3">
+      <node ref="U1" pin="28" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="DIAG4">
+      <node ref="U1" pin="17" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="DIR1">
+      <node ref="U1" pin="2" pinfunction="GPIO0" pintype="bidirectional"/>
+    </net>
+    <net code="10" name="DIR2">
+      <node ref="U1" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+    </net>
+    <net code="11" name="DIR3">
+      <node ref="U1" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+    </net>
+    <net code="12" name="DIR4">
+      <node ref="U1" pin="9" pinfunction="GPIO7" pintype="bidirectional"/>
+    </net>
+    <net code="13" name="DRV_CLK">
+      <node ref="JP1" pin="2" pintype="passive"/>
+    </net>
+    <net code="14" name="ESTOP1">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U1" pin="31" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="15" name="ESTOP2">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="U1" pin="32" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="16" name="ESTOP3">
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="34" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="17" name="ESTOP4">
+      <node ref="J1" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="U1" pin="35" pinfunction="GPIO23" pintype="bidirectional"/>
+    </net>
+    <net code="18" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C13" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C31" pin="2" pintype="passive"/>
+      <node ref="C32" pin="2" pintype="passive"/>
+      <node ref="C33" pin="2" pintype="passive"/>
+      <node ref="C34" pin="2" pintype="passive"/>
+      <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
+      <node ref="C38" pin="2" pintype="passive"/>
+      <node ref="C39" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C40" pin="2" pintype="passive"/>
+      <node ref="C41" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C42" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pinfunction="-" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="K" pinfunction="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="J1" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="J1" pin="23" pinfunction="Pin_23" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J1" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="J1" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="JP1" pin="3" pintype="passive"/>
+      <node ref="JP2" pin="1" pintype="passive"/>
+      <node ref="JP3" pin="1" pintype="passive"/>
+      <node ref="JP4" pin="1" pintype="passive"/>
+      <node ref="JP5" pin="1" pintype="passive"/>
+      <node ref="JP6" pin="1" pintype="passive"/>
+      <node ref="JP7" pin="1" pintype="passive"/>
+      <node ref="JP8" pin="1" pintype="passive"/>
+      <node ref="JP9" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="19" pinfunction="TESTEN" pintype="input"/>
+      <node ref="U1" pin="57" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="1" pinfunction="GND" pintype="power_in"/>
+      <node ref="Y1" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="Y1" pin="4" pinfunction="GND" pintype="input"/>
+    </net>
+    <net code="19" name="HEAT1">
+      <node ref="J1" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U1" pin="37" pinfunction="GPIO25" pintype="bidirectional"/>
+    </net>
+    <net code="20" name="HEAT2">
+      <node ref="J1" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U1" pin="38" pinfunction="GPIO26/ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="21" name="INDEX1">
+      <node ref="U1" pin="29" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="22" name="INDEX2">
+      <node ref="U1" pin="16" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="23" name="INDEX3">
+      <node ref="U1" pin="27" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="24" name="INDEX4">
+      <node ref="U1" pin="18" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="25" name="MEAS_TEMP1">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="J1" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="U1" pin="39" pinfunction="GPIO27/ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="26" name="MEAS_TEMP2">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="J1" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="40" pinfunction="GPIO28/ADC2" pintype="bidirectional"/>
+    </net>
+    <net code="27" name="MEAS_VM">
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="41" pinfunction="GPIO29/ADC3" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="Net-(A1-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(A1-Pad3)">
+      <node ref="R12" pin="2" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(A1-Pad4)">
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(A1-Pad11)">
+      <node ref="M1" pin="4" pinfunction="B1" pintype="power_in"/>
+    </net>
+    <net code="33" name="Net-(A1-Pad12)">
+      <node ref="M1" pin="3" pinfunction="B2" pintype="power_in"/>
+    </net>
+    <net code="34" name="Net-(A1-Pad13)">
+      <node ref="M1" pin="2" pinfunction="A2" pintype="power_in"/>
+    </net>
+    <net code="35" name="Net-(A1-Pad14)">
+      <node ref="M1" pin="1" pinfunction="A1" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(A2-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(A2-Pad3)">
+      <node ref="R14" pin="2" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(A2-Pad4)">
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="39" name="Net-(A2-Pad5)">
+      <node ref="R20" pin="2" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(A2-Pad11)">
+      <node ref="M2" pin="4" pinfunction="B1" pintype="power_in"/>
+    </net>
+    <net code="41" name="Net-(A2-Pad12)">
+      <node ref="M2" pin="3" pinfunction="B2" pintype="power_in"/>
+    </net>
+    <net code="42" name="Net-(A2-Pad13)">
+      <node ref="M2" pin="2" pinfunction="A2" pintype="power_in"/>
+    </net>
+    <net code="43" name="Net-(A2-Pad14)">
+      <node ref="M2" pin="1" pinfunction="A1" pintype="power_in"/>
+    </net>
+    <net code="44" name="Net-(A3-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(A3-Pad3)">
+      <node ref="R16" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(A3-Pad4)">
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(A3-Pad5)">
+      <node ref="R21" pin="2" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(A3-Pad11)">
+      <node ref="M3" pin="4" pinfunction="B1" pintype="power_in"/>
+    </net>
+    <net code="49" name="Net-(A3-Pad12)">
+      <node ref="M3" pin="3" pinfunction="B2" pintype="power_in"/>
+    </net>
+    <net code="50" name="Net-(A3-Pad13)">
+      <node ref="M3" pin="2" pinfunction="A2" pintype="power_in"/>
+    </net>
+    <net code="51" name="Net-(A3-Pad14)">
+      <node ref="M3" pin="1" pinfunction="A1" pintype="power_in"/>
+    </net>
+    <net code="52" name="Net-(A4-Pad2)">
+      <node ref="R17" pin="2" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(A4-Pad3)">
+      <node ref="R18" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(A4-Pad4)">
+      <node ref="R27" pin="2" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(A4-Pad5)">
+      <node ref="R22" pin="2" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(A4-Pad11)">
+      <node ref="M4" pin="4" pinfunction="B1" pintype="power_in"/>
+    </net>
+    <net code="57" name="Net-(A4-Pad12)">
+      <node ref="M4" pin="3" pinfunction="B2" pintype="power_in"/>
+    </net>
+    <net code="58" name="Net-(A4-Pad13)">
+      <node ref="M4" pin="2" pinfunction="A2" pintype="power_in"/>
+    </net>
+    <net code="59" name="Net-(A4-Pad14)">
+      <node ref="M4" pin="1" pinfunction="A1" pintype="power_in"/>
+    </net>
+    <net code="60" name="Net-(C2-Pad1)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="XIN" pintype="input"/>
+      <node ref="Y1" pin="1" pintype="input"/>
+    </net>
+    <net code="61" name="Net-(C5-Pad1)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="Y1" pin="3" pintype="input"/>
+    </net>
+    <net code="62" name="Net-(D2-PadA)">
+      <node ref="D2" pin="A" pinfunction="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(JP2-Pad2)">
+      <node ref="JP2" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="64" name="Net-(JP3-Pad2)">
+      <node ref="JP3" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="65" name="Net-(JP4-Pad2)">
+      <node ref="JP4" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="66" name="Net-(JP5-Pad2)">
+      <node ref="JP5" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="67" name="Net-(JP6-Pad2)">
+      <node ref="JP6" pin="2" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(JP7-Pad2)">
+      <node ref="JP7" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+    </net>
+    <net code="69" name="Net-(JP8-Pad2)">
+      <node ref="JP8" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="70" name="Net-(JP9-Pad2)">
+      <node ref="JP9" pin="2" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+    </net>
+    <net code="71" name="Net-(JP10-Pad1)">
+      <node ref="JP10" pin="1" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="72" name="Net-(JP10-Pad3)">
+      <node ref="JP10" pin="3" pintype="passive"/>
+    </net>
+    <net code="73" name="Net-(JP11-Pad1)">
+      <node ref="JP11" pin="1" pintype="passive"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="74" name="Net-(JP11-Pad3)">
+      <node ref="JP11" pin="3" pintype="passive"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+    </net>
+    <net code="75" name="Net-(JP12-Pad1)">
+      <node ref="JP12" pin="1" pintype="passive"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="76" name="Net-(JP12-Pad3)">
+      <node ref="JP12" pin="3" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+    </net>
+    <net code="77" name="Net-(JP13-Pad1)">
+      <node ref="JP13" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="78" name="Net-(JP13-Pad3)">
+      <node ref="JP13" pin="3" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+    </net>
+    <net code="79" name="Net-(R2-Pad1)">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="46" pinfunction="USB_DM" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="47" pinfunction="USB_DP" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="21" pinfunction="XOUT" pintype="output"/>
+    </net>
+    <net code="82" name="Net-(R8-Pad2)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="52" pinfunction="QSPI_SCLK" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="CLK" pintype="input"/>
+    </net>
+    <net code="83" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U1" pin="56" pinfunction="QSPI_SS_N" pintype="output"/>
+      <node ref="U2" pin="1" pinfunction="~{CS}" pintype="input"/>
+    </net>
+    <net code="84" name="Net-(U1-Pad51)">
+      <node ref="U1" pin="51" pinfunction="QSPI_SD3" pintype="bidirectional"/>
+      <node ref="U2" pin="7" pinfunction="IO3" pintype="bidirectional"/>
+    </net>
+    <net code="85" name="Net-(U1-Pad53)">
+      <node ref="U1" pin="53" pinfunction="QSPI_SD0" pintype="bidirectional"/>
+      <node ref="U2" pin="5" pinfunction="DI(IO0)" pintype="bidirectional"/>
+    </net>
+    <net code="86" name="Net-(U1-Pad54)">
+      <node ref="U1" pin="54" pinfunction="QSPI_SD2" pintype="bidirectional"/>
+      <node ref="U2" pin="3" pinfunction="IO2" pintype="bidirectional"/>
+    </net>
+    <net code="87" name="Net-(U1-Pad55)">
+      <node ref="U1" pin="55" pinfunction="QSPI_SD1" pintype="bidirectional"/>
+      <node ref="U2" pin="2" pinfunction="DO(IO1)" pintype="bidirectional"/>
+    </net>
+    <net code="88" name="RESET">
+      <node ref="J1" pin="17" pinfunction="Pin_17" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="89" name="SER1">
+      <node ref="JP10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="90" name="SER2">
+      <node ref="JP11" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="91" name="SER3">
+      <node ref="JP12" pin="2" pintype="passive"/>
+      <node ref="U1" pin="13" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="92" name="SER4">
+      <node ref="JP13" pin="2" pintype="passive"/>
+      <node ref="U1" pin="14" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="93" name="STEP1">
+      <node ref="U1" pin="3" pinfunction="GPIO1" pintype="bidirectional"/>
+    </net>
+    <net code="94" name="STEP2">
+      <node ref="U1" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+    </net>
+    <net code="95" name="STEP3">
+      <node ref="U1" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+    </net>
+    <net code="96" name="STEP4">
+      <node ref="U1" pin="8" pinfunction="GPIO6" pintype="bidirectional"/>
+    </net>
+    <net code="97" name="SWDCLK">
+      <node ref="J1" pin="19" pinfunction="Pin_19" pintype="passive"/>
+      <node ref="U1" pin="24" pinfunction="SWDCLK" pintype="input"/>
+    </net>
+    <net code="98" name="SWDIO">
+      <node ref="J1" pin="20" pinfunction="Pin_20" pintype="passive"/>
+      <node ref="U1" pin="25" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="99" name="USB+">
+      <node ref="J1" pin="22" pinfunction="Pin_22" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+    </net>
+    <net code="100" name="USB-">
+      <node ref="J1" pin="21" pinfunction="Pin_21" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="101" name="VM">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C13" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C15" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C17" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C39" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C41" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C42" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pinfunction="+" pintype="passive"/>
+      <node ref="D1" pin="K" pinfunction="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="109" name="unconnected-(J3-Pad1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="110" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="111" name="unconnected-(J3-Pad3)">
+      <node ref="J3" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="112" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="113" name="unconnected-(J3-Pad5)">
+      <node ref="J3" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="114" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="115" name="unconnected-(J3-Pad7)">
+      <node ref="J3" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="116" name="unconnected-(J3-Pad8)">
+      <node ref="J3" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="117" name="unconnected-(J4-Pad1)">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="118" name="unconnected-(J4-Pad2)">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="119" name="unconnected-(J4-Pad3)">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="120" name="unconnected-(J4-Pad4)">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="121" name="unconnected-(J4-Pad5)">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="122" name="unconnected-(J4-Pad6)">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="123" name="unconnected-(J4-Pad7)">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="124" name="unconnected-(J4-Pad8)">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="125" name="unconnected-(J5-Pad1)">
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="126" name="unconnected-(J5-Pad2)">
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="127" name="unconnected-(J5-Pad3)">
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="128" name="unconnected-(J5-Pad4)">
+      <node ref="J5" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="129" name="unconnected-(J5-Pad5)">
+      <node ref="J5" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="130" name="unconnected-(J5-Pad6)">
+      <node ref="J5" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="131" name="unconnected-(J5-Pad7)">
+      <node ref="J5" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="132" name="unconnected-(J5-Pad8)">
+      <node ref="J5" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="133" name="unconnected-(J6-Pad1)">
+      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="134" name="unconnected-(J6-Pad2)">
+      <node ref="J6" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="135" name="unconnected-(J6-Pad3)">
+      <node ref="J6" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="136" name="unconnected-(J6-Pad4)">
+      <node ref="J6" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="137" name="unconnected-(J6-Pad5)">
+      <node ref="J6" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="138" name="unconnected-(J6-Pad6)">
+      <node ref="J6" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="139" name="unconnected-(J6-Pad7)">
+      <node ref="J6" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="140" name="unconnected-(J6-Pad8)">
+      <node ref="J6" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="141" name="unconnected-(J7-Pad1)">
+      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="142" name="unconnected-(J7-Pad2)">
+      <node ref="J7" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="143" name="unconnected-(J7-Pad3)">
+      <node ref="J7" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="144" name="unconnected-(J7-Pad4)">
+      <node ref="J7" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="145" name="unconnected-(J7-Pad5)">
+      <node ref="J7" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="146" name="unconnected-(J7-Pad6)">
+      <node ref="J7" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="147" name="unconnected-(J7-Pad7)">
+      <node ref="J7" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="148" name="unconnected-(J7-Pad8)">
+      <node ref="J7" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="149" name="unconnected-(J8-Pad1)">
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="150" name="unconnected-(J8-Pad2)">
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="151" name="unconnected-(J8-Pad3)">
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="152" name="unconnected-(J8-Pad4)">
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="153" name="unconnected-(J8-Pad5)">
+      <node ref="J8" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="154" name="unconnected-(J8-Pad6)">
+      <node ref="J8" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="155" name="unconnected-(J8-Pad7)">
+      <node ref="J8" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="156" name="unconnected-(J8-Pad8)">
+      <node ref="J8" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="157" name="unconnected-(J9-Pad1)">
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="158" name="unconnected-(J9-Pad2)">
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="159" name="unconnected-(J9-Pad3)">
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="160" name="unconnected-(J9-Pad4)">
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="161" name="unconnected-(J9-Pad5)">
+      <node ref="J9" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="162" name="unconnected-(J9-Pad6)">
+      <node ref="J9" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="163" name="unconnected-(J9-Pad7)">
+      <node ref="J9" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="164" name="unconnected-(J9-Pad8)">
+      <node ref="J9" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="165" name="unconnected-(J10-Pad1)">
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="166" name="unconnected-(J10-Pad2)">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    </net>
+    <net code="167" name="unconnected-(J10-Pad3)">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    </net>
+    <net code="168" name="unconnected-(J10-Pad4)">
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+    </net>
+    <net code="169" name="unconnected-(J10-Pad5)">
+      <node ref="J10" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="170" name="unconnected-(J10-Pad6)">
+      <node ref="J10" pin="6" pinfunction="Pin_6" pintype="passive"/>
+    </net>
+    <net code="171" name="unconnected-(J10-Pad7)">
+      <node ref="J10" pin="7" pinfunction="Pin_7" pintype="passive"/>
+    </net>
+    <net code="172" name="unconnected-(J10-Pad8)">
+      <node ref="J10" pin="8" pinfunction="Pin_8" pintype="passive"/>
+    </net>
+    <net code="173" name="~USB_BOOT">
+      <node ref="J1" pin="18" pinfunction="Pin_18" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+  </nets>
+</export>

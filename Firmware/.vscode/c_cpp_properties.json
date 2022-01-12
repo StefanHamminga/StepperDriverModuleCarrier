@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**"
+                // "${workspaceFolder}/build/pico_sdk-src/src/common/**",
+                // "/usr/share/pico-sdk/src/common/pico_base/**",
+                // "/usr/share/pico-sdk/src/common/pico_base/include/**",
+                // "/usr/share/pico-sdk/src/common/boot_picoboot/include/**",
+                // "/usr/share/pico-sdk/src/common/pico_stdlib/include/**"
+            ],
+            "defines": [
+            ],
+            "compilerPath": "/usr/bin/arm-none-eabi-g++",
+            "intelliSenseMode": "linux-gcc-arm",
+            "cStandard": "c11",
+            "cppStandard": "c++20"
+        }
+    ],
+    "version": 4
+}
